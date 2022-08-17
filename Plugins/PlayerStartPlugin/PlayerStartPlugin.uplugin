@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
-	"Version": 5,
-	"VersionName": "1.0.5a",
+	"Version": 6,
+	"VersionName": "1.0.6a",
     "EngineVersion": "5.0",
 	"FriendlyName": "PlayerStartPlugin",
 	"Description": "Easily setup, manage and activate PlayerStarts for your game via WorldSettings from within the Editor Outliner",
@@ -22,7 +22,7 @@
 			"Type": "Editor",
 			"LoadingPhase": "PostEngineInit",
 			"PlatformAllowList": [
-				"Mac"
+				"Mac", "Win64", "Linux"
 			]
 		},
 		{
@@ -30,7 +30,7 @@
 			"Type": "Editor",
 			"LoadingPhase": "Default",
 			"PlatformAllowList": [
-				"Mac"
+                "Mac", "Win64", "Linux"
 			]
 		}
 	]
